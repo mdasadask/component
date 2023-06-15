@@ -25,3 +25,7 @@ Route::get('/form', function () {
     return view('form');
 });
 
+Route::get('/home', function () {
+    return view('home');
+});
+
